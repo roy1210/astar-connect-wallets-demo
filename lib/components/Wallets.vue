@@ -31,6 +31,7 @@ defineProps({
 .box--wallets {
   display: flex;
   flex-direction: column;
+  align-items: center;
   row-gap: 16px;
 }
 </style>

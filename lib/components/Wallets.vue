@@ -19,9 +19,9 @@ defineProps({
   >
     <div class="box--wallets">
       <div v-for="wallet in supportWallets" :key="wallet.name">
-        <button>
+        <astar-button>
           <span>{{ wallet.name }}</span>
-        </button>
+        </astar-button>
       </div>
     </div>
   </astar-default-modal>

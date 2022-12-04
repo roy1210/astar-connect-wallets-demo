@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import { ref, watchEffect } from 'vue';
-import { supportWallets } from '../config';
-import { useConnectWallets } from '../hooks/useConnectWallets';
-import { wait } from '../utils';
-import Wallets from './Wallets.vue';
+import { supportWallets } from './config';
+import { useConnectWallets } from './hooks/useConnectWallets';
+import { wait } from './utils';
+import Wallets from './components/Wallets.vue';
 import { fadeDuration } from '@astar-network/astar-ui';
 import '@astar-network/astar-ui/dist/style.css';
 import 'animate.css';

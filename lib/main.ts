@@ -1,4 +1,4 @@
-import VueComponentNpmExample from './VueComponentNpmExample.vue';
-import ConnectWallets from './components/ConnectWallets.vue';
+import ComponentNpmExample from './ComponentNpmExample.vue';
+import ConnectWallets from './ConnectWallets.vue';
 
-export { VueComponentNpmExample, ConnectWallets };
+export { ComponentNpmExample, ConnectWallets };

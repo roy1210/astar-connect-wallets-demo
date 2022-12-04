@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import ConnectWallets from '../lib/ConnectWallets.vue';
+import VueComponentNpmExample from '../lib/VueComponentNpmExample.vue';
 </script>
 
 <template>
-  <connect-wallets />
+  <VueComponentNpmExample />
 </template>

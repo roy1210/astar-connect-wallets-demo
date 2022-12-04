@@ -1,0 +1,34 @@
+{
+  "name": "astar-connect-wallets-demo",
+  "private": false,
+  "version": "2.0.0",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/astar-connect-wallets-demo.umd.cjs",
+  "module": "./dist/astar-connect-wallets-demo.js",
+  "types": "./dist/main.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/astar-connect-wallets-demo.js",
+      "require": "./dist/astar-connect-wallets-demo.umd.js"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && vue-tsc --emitDeclarationOnly",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.18",
+    "@vitejs/plugin-vue": "^3.1.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0",
+    "vue-tsc": "^0.40.4"
+  }
+}
